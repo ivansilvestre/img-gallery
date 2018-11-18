@@ -1,1 +1,11 @@
+.jumbotron {
+    margin-top: 2rem;
+}
 
+img {
+    width: 100%;
+}
+
+.img-thumbnail{
+    margin-bottom: 5px;
+}
