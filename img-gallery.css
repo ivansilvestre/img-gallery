@@ -6,6 +6,26 @@ img {
     width: 100%;
 }
 
-.img-thumbnail{
-    margin-bottom: 5px;
+.img-thumbnail {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.lead {
+    text-align: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+#photo-src {
+    text-align: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #343a40;
+}
+
+.div-src a {
+    text-decoration: none !important;
 }
