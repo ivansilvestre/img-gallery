@@ -1,36 +1,48 @@
-.jumbotron {
-    margin-top: 2rem;
+:root {
+  --mainFont: "Ubuntu Condensed", sans-serif;
+  --mainColor: #343a40;
 }
 
-img {
-    width: 100%;
+html {
+  box-sizing: border-box;
 }
 
-.img-thumbnail {
-    margin-bottom: 1rem;
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
 }
 
-h1 {
-    text-align: center;
-    font-family: 'Ubuntu Condensed', sans-serif;
-}
-
-.lead {
-    text-align: center;
-    font-family: 'Ubuntu Condensed', sans-serif;
-}
-
-#photo-src {
-    text-align: center;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    color: #343a40;
-}
-
+.title,
 .div-src {
-    width: 77px;
-    margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+.lead {
+  font-family: var(--mainFont);
+  color: var(--mainColor);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  max-width: 500px;
+  margin: 1rem;
 }
 
 .div-src a {
-    text-decoration: none !important;
+  font-family: var(--mainFont);
+  text-decoration: none;
+  color: var(--mainColor);
+}
+.div-src a:hover {
+  color: blue;
 }
